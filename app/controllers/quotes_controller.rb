@@ -17,8 +17,6 @@ class QuotesController < ApplicationController
 
   # GET /quotes/1
   def show
-    tag
-    if
     render json: @quote
   end
 

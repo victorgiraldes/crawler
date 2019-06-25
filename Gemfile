@@ -13,8 +13,12 @@ gem 'puma', '~> 3.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# For Users
+gem 'devise'
 # Mongodb
 gem 'mongoid', '~> 6.1.0'
+# Access Token
+gem 'simple_token_authentication'
 # For HTML Parsing
 gem 'nokogiri'
 # Use Capistrano for deployment
